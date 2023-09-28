@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+
+   <head>
+      <meta charset="UTF-8">
+      <title>HTML Practice 6 - Tables</title>
+
+      <style type="text/css">
+         .tablecenter{
+            text-align: center;
+         }
+
+         .tablestyling1{
+            margin: auto;
+            width: 550px;
+            padding: 5px;
+         }
+
+         table, th, td{
+            border-collapse: separate;
+            border: solid 1px #000000;
+         }
+
+         th{
+            padding-left: 25px;
+            padding-right: 25px;
+         }
+
+         .caption{
+            color: #003300;
+         }
+
+         .colgroup1{
+            background-color: #CCCCCC;
+            width: 25%;
+         }
+
+         .days{
+            background-color: #99FF66;
+         }
+         td{
+            background-color: white;
+         }
+      </style>
+   </head>
+   <body>
+      <div class="tablecenter tablestyling1">
+         <table>
+            <caption>Table Coordinates</caption>
+            <colgroup class="colgroup1">
+            <colgroup class="days" span="5">
+            <tr><th>Courses</th><th>Monday</th><th>Tuesday</th><th>Wednesday</th><th>Thursday</th><th>Friday</th></tr>
+            <tr><th>INFO 1120</th><td>&nbsp;</td><td>9-11</td><td>&nbsp;</td><td>2-5</td><td rowspan="2">&nbsp;</td></tr>
+            <tr><th>MATH 1010</th><td colspan="4">12-1</td></tr>
+            <tr><th>INFO 2420</th><td colspan="5">Online Available 24/7</td></tr>
+         </table>
+      </div>
+
+
+
+   </body>
+</html>
+
